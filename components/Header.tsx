@@ -4,6 +4,7 @@ import React from 'react';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { cn } from '@/lib/utils';
+import GlobalSearch from './GlobalSearch';
 const Header = () => {
   const pathName = usePathname();
   return (
@@ -22,7 +23,7 @@ const Header = () => {
           >
             Home
           </Link>
-          <p>Search Model</p>
+          <GlobalSearch/>
           <Link
             href="/coins"
             className={cn('nav-link', {
