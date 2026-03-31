@@ -12,7 +12,7 @@ const CoinOverview = async () => {
     const { fetcher } = await import('@/lib/coingecko.actions');
     const [coin, coinOHLCData] = await Promise.all([
       await fetcher<CoinDetailsData>('coins/bitcoin', {
-        dex_pair_format: 'symbol',
+        
       }),
       await fetcher<OHLCData[]>('coins/bitcoin/ohlc', {
         vs_currency: 'usd',
