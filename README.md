@@ -1,6 +1,9 @@
-# CoinPulse 🚀
+# CoinPulse 🚀 ![Next.js](https://img.shields.io/badge/Next.js-black)
+![WebSocket](https://img.shields.io/badge/WebSocket-live-green)
+![Vercel](https://img.shields.io/badge/Deployed-Vercel-blue)
 
 🚀 Built a real-time crypto dashboard handling live market data using WebSockets.
+🚀 Real-time trade streaming with WebSocket-based updates
 
 ---
 
@@ -26,9 +29,9 @@
 
 https://coin-pluse1-kfmvqznl6-pranay-kumar-jhas-projects.vercel.app/
 
----
 
 ## 📸 Preview
+---
 
 ### 🚀 Dashboard View
 
