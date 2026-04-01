@@ -1,6 +1,6 @@
 # CoinPulse 🚀
 
-A real-time cryptocurrency dashboard that streams live market data and visualizes price movements using modern web technologies.
+🚀 Built a real-time crypto dashboard handling live market data using WebSockets.
 
 ---
 
@@ -24,7 +24,7 @@ A real-time cryptocurrency dashboard that streams live market data and visualize
 
 ## 🌐 Live Demo
 
-https://your-live-link
+https://coin-pluse1-kfmvqznl6-pranay-kumar-jhas-projects.vercel.app/
 
 ---
 
@@ -32,22 +32,27 @@ https://your-live-link
 
 ### 🚀 Dashboard View
 
-<img width="1884" height="1995" alt="image" src="https://github.com/user-attachments/assets/31eea933-ac2e-4979-8295-cdc2dc7219c0" />
+<img width="900" height="1000" alt="image" src="https://github.com/user-attachments/assets/31eea933-ac2e-4979-8295-cdc2dc7219c0" />
 
 📊 Market Overview
 
-<img width="1884" height="1830" alt="image" src="https://github.com/user-attachments/assets/1cc00160-4a6c-41c4-ae7d-eadba6f6a17c" />
+<img width="900" height="1000" alt="image" src="https://github.com/user-attachments/assets/1cc00160-4a6c-41c4-ae7d-eadba6f6a17c" />
 
 ---
 
-## 🧠 How It Works
+## 🧠 How It Works  
 
-* Fetches initial market data via API
-* Establishes WebSocket connection for live updates
-* Updates UI in real-time with incoming data
-* Efficient state management for performance
-
+- Fetches initial market data from CoinGecko API  
+- Establishes a WebSocket connection for real-time updates  
+- Streams live trade and price data  
+- Efficiently updates UI without full re-render  
 ---
+
+## ⚡ Challenges Faced  
+
+- Handling real-time data updates efficiently  
+- Managing WebSocket connections and reconnections  
+- Optimizing UI rendering for live updates  
 
 ## 🚀 Future Improvements
 
